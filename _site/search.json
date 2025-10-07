@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Andy Tran Resume",
+    "section": "",
+    "text": "Data analyst with strengths in R/Python, reproducible analysis (Quarto), and economics knowledge/skills. Passionate about clear communication and building useful tools."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Posts",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Andy’s introduction",
+    "section": "",
+    "text": "I recently graduated with a Bachelor of Economics and am currently pursuing a Master of Business at Monash University. I’ve built a strong foundation in data-driven decision making. My interest in business analytics really crystallised after second year when I took machine learning and forecasting units since then I’ve been working toward a professional analytics career.\nMy academic journey through research and team projects at Monash has sharpened my analytical thinking and deepened my understanding of business strategy. I’m comfortable turning ambiguous questions into analysis plans and communicating results clearly to non-technical audiences.\n\n\n\nAnalytics: exploratory analysis, visualisation, forecasting, basic ML (classification/regression), experiment design\nData work: wrangling, feature engineering, data quality checks, reproducible reporting (Quarto)\nBusiness: requirements gathering, stakeholder communication, presenting insights\n\n\n\n\n\nR (tidyverse, ggplot2, Quarto), Excel (advanced formulas/Power Query)\nExperience with Python (pandas), SQL, EViews\nGit/GitHub, Microsoft Office\n\n\n\n\nI’m keen to contribute to data projects or internships where I can work end-to-end: scoping the problem, building clean datasets, exploring and modelling, and packaging results into reproducible reports or dashboards. I enjoy messy real-world data, quick iteration with feedback, and collaborating with domain experts to ship something genuinely useful."
+  },
+  {
+    "objectID": "about.html#profile",
+    "href": "about.html#profile",
+    "title": "Andy Tran Resume",
+    "section": "",
+    "text": "Data analyst with strengths in R/Python, reproducible analysis (Quarto), and economics knowledge/skills. Passionate about clear communication and building useful tools."
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Andy Tran Resume",
+    "section": "Experience",
+    "text": "Experience\n\nKitchen Crew — Mcdonald, Bourke & Russell, Melbourne, Australia (August 2023 - January 2024)\n\nProvided high-quality customer service in a fast-paced environment, enhancing customer satisfaction and repeat business.\nCollaborated effectively with team members to manage orders efficiently and ensure seamless operations.\n\n\n\nTeam members — AIESEC, Melbourne, Australia (November 2024 – present)\n\nIdentified and pursued partnership opportunities to expand AIESEC’s network and visibility.\nNegotiated agreements with corporate partners, securing sponsorships to support organisational goals."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Andy Tran Resume",
+    "section": "Education",
+    "text": "Education\n\nBachelor of Economics, Majoring in Business Analytics — Monash University (2022 – 2024)\n\nA three-year program focused on economic theory, quantitative analysis.\nDeveloped robust research and analytical skills through collaborative teamwork and involvement in large-scale projects.\n\n\n\nMaster of Business Analytics — Monash University (2025 – 2026)\n\nA rigorous 1.5-year program, expedited by the completion of advanced preparatory units.\nFocused on deepening expertise in analytics, machine learning, and business optimization.\nCollaborated with esteemed professors on research projects to further refine and enhance practical analytical skills."
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "Andy Tran Resume",
+    "section": "Skills",
+    "text": "Skills\nProgramming & Tools: R (tidyverse, ggplot2), Python (pandas), SQL, Quarto, Git/GitHub, Excel/Power Query\nAnalytics: data wrangling, visualization, statistical modeling, simulation\nAccounting/Finance: (e.g., cost allocation, reporting, reconciliations)\nOther: (e.g., stakeholder comms, presentation)\n\nTweak these to match your CV wording exactly."
+  },
+  {
+    "objectID": "about.html#projects-selected",
+    "href": "about.html#projects-selected",
+    "title": "Andy Tran Resume",
+    "section": "Projects (selected)",
+    "text": "Projects (selected)\n\nProject name — one-line impact statement (link if public)\nProject name — one-line impact statement\nProject name — one-line impact statement"
+  },
+  {
+    "objectID": "about.html#certifications-awards",
+    "href": "about.html#certifications-awards",
+    "title": "Andy Tran Resume",
+    "section": "Certifications & Awards",
+    "text": "Certifications & Awards"
+  },
+  {
+    "objectID": "about.html#contact-cv",
+    "href": "about.html#contact-cv",
+    "title": "Andy Tran Resume",
+    "section": "Contact & CV",
+    "text": "Contact & CV\n\nEmail: your@email.com\n\nLocation: Melbourne, Australia"
+  },
+  {
+    "objectID": "index.html#hi-im-andy",
+    "href": "index.html#hi-im-andy",
+    "title": "Andy’s introduction",
+    "section": "",
+    "text": "I recently graduated with a Bachelor of Economics and am currently pursuing a Master of Business at Monash University. I’ve built a strong foundation in data-driven decision making. My interest in business analytics really crystallised after second year when I took machine learning and forecasting units since then I’ve been working toward a professional analytics career.\nMy academic journey through research and team projects at Monash has sharpened my analytical thinking and deepened my understanding of business strategy. I’m comfortable turning ambiguous questions into analysis plans and communicating results clearly to non-technical audiences.\n\n\n\nAnalytics: exploratory analysis, visualisation, forecasting, basic ML (classification/regression), experiment design\nData work: wrangling, feature engineering, data quality checks, reproducible reporting (Quarto)\nBusiness: requirements gathering, stakeholder communication, presenting insights\n\n\n\n\n\nR (tidyverse, ggplot2, Quarto), Excel (advanced formulas/Power Query)\nExperience with Python (pandas), SQL, EViews\nGit/GitHub, Microsoft Office\n\n\n\n\nI’m keen to contribute to data projects or internships where I can work end-to-end: scoping the problem, building clean datasets, exploring and modelling, and packaging results into reproducible reports or dashboards. I enjoy messy real-world data, quick iteration with feedback, and collaborating with domain experts to ship something genuinely useful."
+  }
+]
