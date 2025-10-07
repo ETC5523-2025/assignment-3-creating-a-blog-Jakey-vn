@@ -1,17 +1,28 @@
 project:
   type: website
+  output-dir: _site
+  render:
+    - about.qmd
+    - index.qmd
+    - posts/welcome/index.qmd
 
 website:
-  title: "blog-template"
+  title: "About me"
+  favicon: my_picture.png
+  search: true
   navbar:
-    right:
-      - about.qmd
-      - icon: github
-        href: https://github.com/etc5523-2022
+    left:
+      - text: My CV
+        file: about.qmd
+      - text: Posts
+        file: posts/welcome/index.qmd
+
 format:
   html:
     theme: cosmo
     css: styles.css
+    toc: true
+    code-fold: show
+    smooth-scroll: true
 
-
-
+freeze: auto
