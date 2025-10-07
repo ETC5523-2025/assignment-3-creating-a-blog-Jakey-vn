@@ -1,13 +1,93 @@
 ---
-title: "About"
-image: profile.jpg
+title: "Andy Tran Resume"
 about:
   template: jolla
   links:
     - icon: github
       text: Github
       href: https://github.com/etc5523-2022
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/andy-tran-167223303/
+    - icon: facebook
+      text: facebook
+      href: https://www.facebook.com/huy.tran.870537/
+---
+
+## Profile
+
+Data analyst with strengths in R/Python, reproducible analysis (Quarto), and economics knowledge/skills. Passionate about clear communication and building useful tools.
 
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+## Experience
+
+### Kitchen Crew — Mcdonald, Bourke & Russell, Melbourne, Australia *(August 2023 - January 2024)*
+- Provided high-quality customer service in a fast-paced environment, enhancing customer satisfaction and repeat business. 
+- Collaborated effectively with team members to manage orders efficiently and ensure seamless operations. 
+
+### Team members — AIESEC, Melbourne, Australia *(November 2024 – present)*
+- Identified and pursued partnership opportunities to expand AIESEC's network and visibility. 
+-  Negotiated agreements with corporate partners, securing sponsorships to support organisational goals. 
+
+---
+
+## Education
+
+### Bachelor of Economics, Majoring in Business Analytics — Monash University (2022 – 2024)
+
+- A three-year program focused on economic theory, quantitative analysis.
+- Developed robust research and analytical skills through collaborative teamwork and involvement in large-scale projects.
+
+### Master of Business Analytics — Monash University (2025 – 2026)
+
+- A rigorous 1.5-year program, expedited by the completion of advanced preparatory units.
+- Focused on deepening expertise in analytics, machine learning, and business optimization.
+- Collaborated with esteemed professors on research projects to further refine and enhance practical analytical skills.
+
+---
+
+## Skills
+
+**R / RStudio (Advanced):** data wrangling, statistical computing, modelling; reproducible workflows (Quarto); visualisation with **ggplot2**.
+
+**Excel (Proficient):** advanced formulas, charts; **Power Query**; often paired with R for analysis.
+
+**Python (Foundational):** pandas-based data manipulation and analysis.
+
+**SQL (Basic):** selects, joins, aggregations.
+
+**EViews (Basic):** produce charts and extract key statistical outputs.
+
+**Microsoft Office:** Word, PowerPoint, Outlook, OneNote, Publisher.
+
+**Analytics & Collaboration**
+
+- **Research & teamwork:** manage multiple concurrent research projects; integrate smoothly into diverse team settings (Monash).
+
+- **Analytics:** exploratory analysis, data quality checks, visualisation, statistical modelling, simulation.
+
+**Machine Learning (R)**
+
+- Dimension reduction (e.g., PCA), supervised & unsupervised learning, cross-validation/regularisation, and optimisation techniques in a reproducible environment.
+
+**Forecasting (R)**
+
+- Time-series decomposition, exponential smoothing, **ARIMA**, and regression with autocorrelated disturbances.
+
+
+
+---
+
+## Projects 
+
+- **Water Availability Prediction Optimization (Monash, May 2024)** — Built and tuned a **Random Forest** classifier in R on African water-source data; delivered **72.3% balanced accuracy**, enabling lower monitoring costs and better resource allocation.
+
+- **Blackjack Simulation for R (Monash, Apr 2025)** — Co-developed a modular **R package** with single-player, multi-player, and Monte-Carlo simulation modes (configurable draw thresholds) for strategy testing and teaching. [GitHub](https://github.com/MonashARP/game-package-bilbies.git)
+
+---
+
+## Contact & CV
+
+- **Email:** <jakeyhuy@gmail.com>  
+- **Location:** Docklands, Melbourne, Australia  
