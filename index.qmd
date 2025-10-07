@@ -1,14 +1,35 @@
 ---
-title: "ETC5523 Blog Assessment"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
+title: "Andy's introduction"
+about:
+  template: marquee
+  image: my_picture.png
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/etc5523-2022
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/andy-tran-167223303/
+    - icon: facebook
+      text: facebook
+      href: https://www.facebook.com/huy.tran.870537/
 ---
 
+## Hi, I’m Andy
 
+I recently graduated with a **Bachelor of Economics** and am currently pursuing a **Master of Business** at Monash University. I’ve built a strong foundation in **data-driven decision making**. My interest in business analytics really crystallised after second year when I took **machine learning** and **forecasting** units since then I’ve been working toward a professional analytics career.
+
+My academic journey through research and team projects at Monash has sharpened my analytical thinking and deepened my understanding of business strategy. I’m comfortable turning ambiguous questions into analysis plans and communicating results clearly to non-technical audiences.
+
+### Core skills
+- **Analytics:** exploratory analysis, visualisation, forecasting, basic ML (classification/regression), experiment design
+- **Data work:** wrangling, feature engineering, data quality checks, reproducible reporting (Quarto)
+- **Business:** requirements gathering, stakeholder communication, presenting insights
+
+### Toolbox
+- **R** (tidyverse, ggplot2, Quarto), **Excel** (advanced formulas/Power Query)
+- Experience with **Python** (pandas), **SQL**, **EViews**
+- Git/GitHub, Microsoft Office
+
+### Open to projects & internships
+I’m keen to contribute to **data projects or internships** where I can work end-to-end: scoping the problem, building clean datasets, exploring and modelling, and packaging results into reproducible reports or dashboards. I enjoy messy real-world data, quick iteration with feedback, and collaborating with domain experts to ship something genuinely useful.
