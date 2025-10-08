@@ -1,122 +1,10 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Andy Tran Resume",
-    "section": "",
-    "text": "Data analyst with strengths in R/Python, reproducible analysis (Quarto), and economics knowledge/skills. Passionate about clear communication and building useful tools."
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Posts",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Andy’s introduction",
-    "section": "",
-    "text": "I recently graduated with a Bachelor of Economics and am currently pursuing a Master of Business at Monash University. I’ve built a strong foundation in data-driven decision making. My interest in business analytics really crystallised after second year when I took machine learning and forecasting units since then I’ve been working toward a professional analytics career.\nMy academic journey through research and team projects at Monash has sharpened my analytical thinking and deepened my understanding of business strategy. I’m comfortable turning ambiguous questions into analysis plans and communicating results clearly to non-technical audiences.\n\n\n\nAnalytics: exploratory analysis, visualisation, forecasting, basic ML (classification/regression), experiment design\nData work: wrangling, feature engineering, data quality checks, reproducible reporting (Quarto)\nBusiness: requirements gathering, stakeholder communication, presenting insights\n\n\n\n\n\nR (tidyverse, ggplot2, Quarto), Excel (advanced formulas/Power Query)\nExperience with Python (pandas), SQL, EViews\nGit/GitHub, Microsoft Office\n\n\n\n\nI’m keen to contribute to data projects or internships where I can work end-to-end: scoping the problem, building clean datasets, exploring and modelling, and packaging results into reproducible reports or dashboards. I enjoy messy real-world data, quick iteration with feedback, and collaborating with domain experts to ship something genuinely useful."
-  },
-  {
-    "objectID": "about.html#profile",
-    "href": "about.html#profile",
-    "title": "Andy Tran Resume",
-    "section": "",
-    "text": "Data analyst with strengths in R/Python, reproducible analysis (Quarto), and economics knowledge/skills. Passionate about clear communication and building useful tools."
-  },
-  {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
-    "title": "Andy Tran Resume",
-    "section": "Experience",
-    "text": "Experience\n\nKitchen Crew — Mcdonald, Bourke & Russell, Melbourne, Australia (August 2023 - January 2024)\n\nProvided high-quality customer service in a fast-paced environment, enhancing customer satisfaction and repeat business.\nCollaborated effectively with team members to manage orders efficiently and ensure seamless operations.\n\n\n\nTeam members — AIESEC, Melbourne, Australia (November 2024 – present)\n\nIdentified and pursued partnership opportunities to expand AIESEC’s network and visibility.\nNegotiated agreements with corporate partners, securing sponsorships to support organisational goals."
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "Andy Tran Resume",
-    "section": "Education",
-    "text": "Education\n\nBachelor of Economics, Majoring in Business Analytics — Monash University (2022 – 2024)\n\nA three-year program focused on economic theory, quantitative analysis.\nDeveloped robust research and analytical skills through collaborative teamwork and involvement in large-scale projects.\n\n\n\nMaster of Business Analytics — Monash University (2025 – 2026)\n\nA rigorous 1.5-year program, expedited by the completion of advanced preparatory units.\nFocused on deepening expertise in analytics, machine learning, and business optimization.\nCollaborated with esteemed professors on research projects to further refine and enhance practical analytical skills."
-  },
-  {
-    "objectID": "about.html#skills",
-    "href": "about.html#skills",
-    "title": "Andy Tran Resume",
-    "section": "Skills",
-    "text": "Skills\nR / RStudio (Advanced): data wrangling, statistical computing, modelling; reproducible workflows (Quarto); visualisation with ggplot2.\nExcel (Proficient): advanced formulas, charts; Power Query; often paired with R for analysis.\nPython (Foundational): pandas-based data manipulation and analysis.\nSQL (Basic): selects, joins, aggregations.\nEViews (Basic): produce charts and extract key statistical outputs.\nMicrosoft Office: Word, PowerPoint, Outlook, OneNote, Publisher.\nAnalytics & Collaboration\n\nResearch & teamwork: manage multiple concurrent research projects; integrate smoothly into diverse team settings (Monash).\nAnalytics: exploratory analysis, data quality checks, visualisation, statistical modelling, simulation.\n\nMachine Learning (R)\n\nDimension reduction (e.g., PCA), supervised & unsupervised learning, cross-validation/regularisation, and optimisation techniques in a reproducible environment.\n\nForecasting (R)\n\nTime-series decomposition, exponential smoothing, ARIMA, and regression with autocorrelated disturbances."
-  },
-  {
-    "objectID": "about.html#projects-selected",
-    "href": "about.html#projects-selected",
-    "title": "Andy Tran Resume",
-    "section": "Projects (selected)",
-    "text": "Projects (selected)\n\nProject name — one-line impact statement (link if public)\nProject name — one-line impact statement\nProject name — one-line impact statement"
-  },
-  {
-    "objectID": "about.html#certifications-awards",
-    "href": "about.html#certifications-awards",
-    "title": "Andy Tran Resume",
-    "section": "Certifications & Awards",
-    "text": "Certifications & Awards"
-  },
-  {
-    "objectID": "about.html#contact-cv",
-    "href": "about.html#contact-cv",
-    "title": "Andy Tran Resume",
-    "section": "Contact & CV",
-    "text": "Contact & CV\n\nEmail: jakeyhuy@gmail.com\n\nPhone number: +61 413 385 460\nLocation: Docklands, Melbourne, Australia"
-  },
-  {
-    "objectID": "index.html#hi-im-andy",
-    "href": "index.html#hi-im-andy",
-    "title": "Andy’s introduction",
-    "section": "",
-    "text": "I recently graduated with a Bachelor of Economics and am currently pursuing a Master of Business at Monash University. I’ve built a strong foundation in data-driven decision making. My interest in business analytics really crystallised after second year when I took machine learning and forecasting units since then I’ve been working toward a professional analytics career.\nMy academic journey through research and team projects at Monash has sharpened my analytical thinking and deepened my understanding of business strategy. I’m comfortable turning ambiguous questions into analysis plans and communicating results clearly to non-technical audiences.\n\n\n\nAnalytics: exploratory analysis, visualisation, forecasting, basic ML (classification/regression), experiment design\nData work: wrangling, feature engineering, data quality checks, reproducible reporting (Quarto)\nBusiness: requirements gathering, stakeholder communication, presenting insights\n\n\n\n\n\nR (tidyverse, ggplot2, Quarto), Excel (advanced formulas/Power Query)\nExperience with Python (pandas), SQL, EViews\nGit/GitHub, Microsoft Office\n\n\n\n\nI’m keen to contribute to data projects or internships where I can work end-to-end: scoping the problem, building clean datasets, exploring and modelling, and packaging results into reproducible reports or dashboards. I enjoy messy real-world data, quick iteration with feedback, and collaborating with domain experts to ship something genuinely useful."
-  },
-  {
-    "objectID": "about.html#projects",
-    "href": "about.html#projects",
-    "title": "Andy Tran Resume",
-    "section": "Projects",
-    "text": "Projects\n\nWater Availability Prediction Optimization (Monash, May 2024) — Built and tuned a Random Forest classifier in R on African water-source data; delivered 72.3% balanced accuracy, enabling lower monitoring costs and better resource allocation.\nBlackjack Simulation for R (Monash, Apr 2025) — Co-developed a modular R package with single-player, multi-player, and Monte-Carlo simulation modes (configurable draw thresholds) for strategy testing and teaching. GitHub"
-  },
-  {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "About me",
-    "section": "",
-    "text": "The Hidden Burden of Hospital Infections in Germany\n\n\n\nBlog\n\n\n\nThis article is a blog adapted from the original article Application of a new methodology and R package reveals a high burden of healthcare-associated infections (HAI) in Germany compared to the average in the European Union/European Economic Area, 2011 to 2012\n\n\n\n\n\nOct 8, 2025\n\n9 min\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "posts/assignment_3/index.html",
     "href": "posts/assignment_3/index.html",
     "title": "The Hidden Burden of Hospital Infections in Germany",
     "section": "",
     "text": "In 2011, about half a million people in Germany caught an infection while receiving hospital care. These are known as healthcare-associated infections (HAIs), illnesses patients pick up during treatment, such as pneumonia, urinary tract infections, or wound infections after surgery.\nThese infections led to around 16,000 deaths and caused a major loss of health which is equal to about 249,000 healthy years of life lost across the country. Scientists measure this impact using something called DALYs, which combine both early deaths and time spent living with illness.\nWhen compared with the rest of Europe, Germany’s total burden was higher, about 308 healthy years lost for every 100,000 people, while the EU average was about 290. This happened even though German hospitals had slightly lower infection rates per patient than many others.\nResearchers used a new computer method which can be seen in Figure 1, built in R software, to estimate the national impact of five major infections:\n\nClostridioides difficile (CDI)\nHealthcare-associated Pneumonia (HAP)\nBloodstream infection (BSI)\nUrinary tract infection (UTI)\nSurgical-site infection (SSI)\n\n\n\n\n\n\n\nFigure 1: Workflow for estimating the burden of healthcare-associated infections using the BHAI R package, 2011–2012.\n\n\n\nOne key reason for Germany’s higher overall burden is that the country has more hospital beds and admissions than most European nations which means that there is actually more chances for infection to spread. This is due to the key findings in the article suggests that shortening unnecessary hospital stays and strengthening infection prevention and control could save many lives and reduce the burden of these avoidable infections."
-  },
-  {
-    "objectID": "posts/assignment_3/index.html#problem-description",
-    "href": "posts/assignment_3/index.html#problem-description",
-    "title": "The Hidden Burden of Hospital Infections in Germany",
-    "section": "",
-    "text": "Every year, thousands of hospital patients across Germany develop infections they didn’t have when they were admitted. These are called healthcare-associated infections (HAIs) including illnesses like pneumonia, urinary tract infections, or surgical-site infections that spread in healthcare settings.\nAlthough hospitals are designed to heal, HAIs can make patients sicker, extend recovery time, and even lead to death. In Germany, it’s estimated that around one in every 25 hospital patients is affected. Understanding how big this problem is and how it compares to other European countries can helps governments and hospitals decide where to focus prevention efforts and how to make healthcare safer for everyone."
-  },
-  {
-    "objectID": "posts/assignment_3/index.html#source-of-the-datasets",
-    "href": "posts/assignment_3/index.html#source-of-the-datasets",
-    "title": "The Hidden Burden of Hospital Infections in Germany",
-    "section": "Source of the datasets",
-    "text": "Source of the datasets\nThe data used in this analysis came from the European Centre for Disease Prevention and Control (ECDC) Point Prevalence Survey (PPS) on healthcare-associated infections and antimicrobial use.\nThis large study was carried out in 2011–2012 across 29 European Union and European Economic Area (EU/EEA) countries, including Germany.\nFor Germany, two datasets were used:\n\nA representative national sample of 46 hospitals (9,626 patients).\nA larger convenience sample of 132 hospitals (41,539 patients).\n\nThe study combined these survey data with population statistics from Eurostat (2011) to estimate how many infections occurred in the German population as a whole. All calculations were performed using the BHAI R package (Burden of Healthcare-Associated Infections), an open-source tool developed by the Robert Koch Institute to convert hospital prevalence data into national-level estimates of cases, deaths, and disability-adjusted life years (DALYs)"
-  },
-  {
-    "objectID": "posts/assignment_3/index.html#the-findings-from-this-article",
-    "href": "posts/assignment_3/index.html#the-findings-from-this-article",
-    "title": "The Hidden Burden of Hospital Infections in Germany",
-    "section": "The findings from this article",
-    "text": "The findings from this article\nUsing hospital data from across Germany, the study estimated that in 2011, about 478,000 people developed one of five major healthcare-associated infections such as pneumonia, urinary tract infections, and bloodstream infections.\nAccoridng to Table 1, these infections caused around 16,000 deaths and led to the loss of nearly 249,000 healthy years of life, measured in disability-adjusted life years (DALYs); a measure that combines both premature death and time spent in illness.\n\n\n\nTable 1: Annual burden of five types of healthcare-associated infections, German point prevalence survey sample, Germany, 2011.\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 1: Estimated HAI incidence in Germany, 2011–2012."
   },
   {
     "objectID": "posts/assignment_3/index.html#executive-summary",
@@ -161,10 +49,73 @@
     "text": "Reference\nZacher, B., Haller, S., Willrich, N., Walter, J., Abu Sin, M., Cassini, A., Plachouras, D., Suetens, C., Behnke, M., Gastmeier, P., Wieler, L. H., & Eckmanns, T. (2019). Application of a new methodology and R package reveals a high burden of healthcare-associated infections (HAI) in Germany compared to the average in the European Union/European Economic Area, 2011 to 2012. Eurosurveillance, 24(46), 1900135. Can be accessible through this link."
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Andy’s introduction",
+    "section": "",
+    "text": "I recently graduated with a Bachelor of Economics and am currently pursuing a Master of Business at Monash University. I’ve built a strong foundation in data-driven decision making. My interest in business analytics really crystallised after second year when I took machine learning and forecasting units since then I’ve been working toward a professional analytics career.\nMy academic journey through research and team projects at Monash has sharpened my analytical thinking and deepened my understanding of business strategy. I’m comfortable turning ambiguous questions into analysis plans and communicating results clearly to non-technical audiences.\n\n\n\nAnalytics: exploratory analysis, visualisation, forecasting, basic ML (classification/regression), experiment design\nData work: wrangling, feature engineering, data quality checks, reproducible reporting (Quarto)\nBusiness: requirements gathering, stakeholder communication, presenting insights\n\n\n\n\n\nR (tidyverse, ggplot2, Quarto), Excel (advanced formulas/Power Query)\nExperience with Python (pandas), SQL, EViews\nGit/GitHub, Microsoft Office\n\n\n\n\nI’m keen to contribute to data projects or internships where I can work end-to-end: scoping the problem, building clean datasets, exploring and modelling, and packaging results into reproducible reports or dashboards. I enjoy messy real-world data, quick iteration with feedback, and collaborating with domain experts to ship something genuinely useful."
+  },
+  {
+    "objectID": "index.html#hi-im-andy",
+    "href": "index.html#hi-im-andy",
+    "title": "Andy’s introduction",
+    "section": "",
+    "text": "I recently graduated with a Bachelor of Economics and am currently pursuing a Master of Business at Monash University. I’ve built a strong foundation in data-driven decision making. My interest in business analytics really crystallised after second year when I took machine learning and forecasting units since then I’ve been working toward a professional analytics career.\nMy academic journey through research and team projects at Monash has sharpened my analytical thinking and deepened my understanding of business strategy. I’m comfortable turning ambiguous questions into analysis plans and communicating results clearly to non-technical audiences.\n\n\n\nAnalytics: exploratory analysis, visualisation, forecasting, basic ML (classification/regression), experiment design\nData work: wrangling, feature engineering, data quality checks, reproducible reporting (Quarto)\nBusiness: requirements gathering, stakeholder communication, presenting insights\n\n\n\n\n\nR (tidyverse, ggplot2, Quarto), Excel (advanced formulas/Power Query)\nExperience with Python (pandas), SQL, EViews\nGit/GitHub, Microsoft Office\n\n\n\n\nI’m keen to contribute to data projects or internships where I can work end-to-end: scoping the problem, building clean datasets, exploring and modelling, and packaging results into reproducible reports or dashboards. I enjoy messy real-world data, quick iteration with feedback, and collaborating with domain experts to ship something genuinely useful."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Andy Tran Resume",
+    "section": "",
+    "text": "Data analyst with strengths in R/Python, reproducible analysis (Quarto), and economics knowledge/skills. Passionate about clear communication and building useful tools."
+  },
+  {
+    "objectID": "about.html#profile",
+    "href": "about.html#profile",
+    "title": "Andy Tran Resume",
+    "section": "",
+    "text": "Data analyst with strengths in R/Python, reproducible analysis (Quarto), and economics knowledge/skills. Passionate about clear communication and building useful tools."
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Andy Tran Resume",
+    "section": "Experience",
+    "text": "Experience\n\nKitchen Crew — Mcdonald, Bourke & Russell, Melbourne, Australia (August 2023 - January 2024)\n\nProvided high-quality customer service in a fast-paced environment, enhancing customer satisfaction and repeat business.\nCollaborated effectively with team members to manage orders efficiently and ensure seamless operations.\n\n\n\nTeam members — AIESEC, Melbourne, Australia (November 2024 – present)\n\nIdentified and pursued partnership opportunities to expand AIESEC’s network and visibility.\nNegotiated agreements with corporate partners, securing sponsorships to support organisational goals."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Andy Tran Resume",
+    "section": "Education",
+    "text": "Education\n\nBachelor of Economics, Majoring in Business Analytics — Monash University (2022 – 2024)\n\nA three-year program focused on economic theory, quantitative analysis.\nDeveloped robust research and analytical skills through collaborative teamwork and involvement in large-scale projects.\n\n\n\nMaster of Business Analytics — Monash University (2025 – 2026)\n\nA rigorous 1.5-year program, expedited by the completion of advanced preparatory units.\nFocused on deepening expertise in analytics, machine learning, and business optimization.\nCollaborated with esteemed professors on research projects to further refine and enhance practical analytical skills."
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "Andy Tran Resume",
+    "section": "Skills",
+    "text": "Skills\nR / RStudio (Advanced): data wrangling, statistical computing, modelling; reproducible workflows (Quarto); visualisation with ggplot2.\nExcel (Proficient): advanced formulas, charts; Power Query; often paired with R for analysis.\nPython (Foundational): pandas-based data manipulation and analysis.\nSQL (Basic): selects, joins, aggregations.\nEViews (Basic): produce charts and extract key statistical outputs.\nMicrosoft Office: Word, PowerPoint, Outlook, OneNote, Publisher.\nAnalytics & Collaboration\n\nResearch & teamwork: manage multiple concurrent research projects; integrate smoothly into diverse team settings (Monash).\nAnalytics: exploratory analysis, data quality checks, visualisation, statistical modelling, simulation.\n\nMachine Learning (R)\n\nDimension reduction (e.g., PCA), supervised & unsupervised learning, cross-validation/regularisation, and optimisation techniques in a reproducible environment.\n\nForecasting (R)\n\nTime-series decomposition, exponential smoothing, ARIMA, and regression with autocorrelated disturbances."
+  },
+  {
+    "objectID": "about.html#projects",
+    "href": "about.html#projects",
+    "title": "Andy Tran Resume",
+    "section": "Projects",
+    "text": "Projects\n\nWater Availability Prediction Optimization (Monash, May 2024) — Built and tuned a Random Forest classifier in R on African water-source data; delivered 72.3% balanced accuracy, enabling lower monitoring costs and better resource allocation.\nBlackjack Simulation for R (Monash, Apr 2025) — Co-developed a modular R package with single-player, multi-player, and Monte-Carlo simulation modes (configurable draw thresholds) for strategy testing and teaching. GitHub"
+  },
+  {
     "objectID": "about.html#contact",
     "href": "about.html#contact",
     "title": "Andy Tran Resume",
     "section": "Contact",
     "text": "Contact\n\nEmail: jakeyhuy@gmail.com\n\nPhone number: +61 413 385 460\nLocation: Docklands, Melbourne, Australia"
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "About me",
+    "section": "",
+    "text": "The Hidden Burden of Hospital Infections in Germany\n\n\n\nBlog\n\n\n\nThis article is a blog adapted from the original article Application of a new methodology and R package reveals a high burden of healthcare-associated infections (HAI) in Germany compared to the average in the European Union/European Economic Area, 2011 to 2012\n\n\n\n\n\nOct 8, 2025\n\n9 min\n\n\n\n\nNo matching items"
   }
 ]

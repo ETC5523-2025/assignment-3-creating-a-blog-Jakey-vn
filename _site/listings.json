@@ -1,15 +1,5 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/posts/welcome/index.html"
-    ]
-  },
-  {
-    "listing": "/posts/welcome/index.html",
-    "items": []
-  },
-  {
     "listing": "/posts/index.html",
     "items": [
       "/posts/assignment_3/index.html"
