@@ -1,0 +1,12 @@
+---
+title: Posts
+listing:
+  contents: .
+  sort: "date desc"
+  type: default   # or "grid"
+  categories: true
+  feed: true
+---
+
+
+

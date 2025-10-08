@@ -6,10 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Tran Dang Huy (Andy)">
 <meta name="dcterms.date" content="2025-10-08">
-<meta name="description" content="What I built and learned in A3.">
+<meta name="description" content="This article is a blog adapted from the original article Application of a new methodology and R package reveals a high burden of healthcare-associated infections (HAI) in Germany compared to the average in the European Union/European Economic Area, 2011 to 2012">
 
-<title>Assignment 3 – About me</title>
+<title>The Hidden Burden of Hospital Infections in Germany – About me</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -79,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -109,52 +110,160 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Assignment 3</h1>
-                  <div>
-        <div class="description">
-          What I built and learned in A3.
-        </div>
-      </div>
-                          <div class="quarto-categories">
-                <div class="quarto-category">r</div>
-                <div class="quarto-category">report</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">October 8, 2025</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#executive-summary" id="toc-executive-summary" class="nav-link active" data-scroll-target="#executive-summary">Executive Summary</a></li>
+  <li><a href="#introduction-to-the-problem" id="toc-introduction-to-the-problem" class="nav-link" data-scroll-target="#introduction-to-the-problem">Introduction to the Problem</a></li>
+  <li><a href="#findings-of-the-analysis" id="toc-findings-of-the-analysis" class="nav-link" data-scroll-target="#findings-of-the-analysis">Findings of the analysis</a></li>
+  <li><a href="#how-the-study-was-done" id="toc-how-the-study-was-done" class="nav-link" data-scroll-target="#how-the-study-was-done">How the study was done</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion:</a></li>
+  <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference">Reference</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The Hidden Burden of Hospital Infections in Germany</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Blog</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    This article is a blog adapted from the original article Application of a new methodology and R package reveals a high burden of healthcare-associated infections (HAI) in Germany compared to the average in the European Union/European Economic Area, 2011 to 2012
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Tran Dang Huy (Andy) </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 8, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
+</header>
 
 
+<section id="executive-summary" class="level2">
+<h2 class="anchored" data-anchor-id="executive-summary">Executive Summary</h2>
+<p>In 2011, about half a million people in Germany caught an infection while receiving hospital care. These are known as healthcare-associated infections (HAIs), illnesses patients pick up during treatment, such as pneumonia, urinary tract infections, or wound infections after surgery.</p>
+<p>These infections led to around 16,000 deaths and caused a major loss of health which is equal to about 249,000 healthy years of life lost across the country. Scientists measure this impact using something called DALYs, which combine both early deaths and time spent living with illness.</p>
+<p>When compared with the rest of Europe, Germany’s total burden was higher, about 308 healthy years lost for every 100,000 people, while the EU average was about 290. This happened even though German hospitals had slightly lower infection rates per patient than many others.</p>
+<p>Researchers used a new computer method which can be seen in <a href="#fig-hai-1" class="quarto-xref">Figure&nbsp;1</a>, built in R software, to estimate the national impact of five major infections:</p>
+<ul>
+<li><p>Clostridioides difficile (CDI)</p></li>
+<li><p>Healthcare-associated Pneumonia (HAP)</p></li>
+<li><p>Bloodstream infection (BSI)</p></li>
+<li><p>Urinary tract infection (UTI)</p></li>
+<li><p>Surgical-site infection (SSI)</p></li>
+</ul>
+<div id="fig-hai-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hai-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="Figure_1.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hai-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Workflow for estimating the burden of healthcare-associated infections using the BHAI R package, 2011–2012.
+</figcaption>
+</figure>
+</div>
+<p>One key reason for Germany’s higher overall burden is that the country has more hospital beds and admissions than most European nations which means that there is actually more chances for infection to spread. This is due to the key findings in the article suggests that shortening unnecessary hospital stays and strengthening infection prevention and control could save many lives and reduce the burden of these avoidable infections.</p>
+</section>
+<section id="introduction-to-the-problem" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-to-the-problem">Introduction to the Problem</h2>
+<p>When people go to hospital, they expect to recover from illness, not to leave with a new one. Yet many patients develop infections during their stay. These are called healthcare-associated infections (HAIs), and they are one of the biggest hidden problems in modern healthcare.</p>
+<p>HAIs can range from urinary tract infections caused by catheters to pneumonia in patients on ventilators, or bloodstream infections linked to intravenous lines. They can prolong hospital stays, require extra medication, and sometimes it can lead to death. Beyond the human toll, HAIs place a huge financial burden on hospitals and national health systems through longer stays, additional treatments, and staff time.</p>
+<p>In Germany, experts estimate that between 20% and 30% of these infections could be prevented with stricter hygiene, better hand-washing, and improved clinical practices. But to know how serious the problem really is, Germany first needed a reliable way to measure the national impact of HAIs.</p>
+<p>Traditionally, infection rates were reported as prevalence (how many patients have an infection on a given day) or incidence (how many new infections occur over time). While useful, these numbers alone do not show how severe each infection is or how much overall harm it causes. For example, one infection might be common but mild, while another might be rare but deadly. To compare them fairly, researchers use a broader health-impact measure called Disability-Adjusted Life Years (DALYs).</p>
+<p>In 2016, the European Centre for Disease Prevention and Control (ECDC) used this approach for the first time to estimate the burden of HAIs across 29 European Union and European Economic Area (EU/EEA) countries. Their work built on the Burden of Communicable Diseases in Europe (BCoDE) project, which provided a standardized method and data framework.</p>
+<p>Building on that foundation, researchers at Germany’s Robert Koch Institute applied an improved version of this method using a custom-built R package called BHAI which can be seen from <a href="#fig-hai-1" class="quarto-xref">Figure&nbsp;1</a>. The analysis used point-prevalence survey data collected in 2011–2012 from thousands of patients in German hospitals and across Europe.</p>
+<p>It focused on five of the most common and clinically important HAIs: CDI, HAP, BSI, UTI and SSI. By combining infection data from hospitals with population statistics, the researchers estimated how many people across Germany developed each infection, how many died as a result, and how many years of healthy life were lost. They then compared these national results with the EU/EEA average to see how Germany’s healthcare system measured up internationally.</p>
+<p>This analysis was the first country-specific application of the BHAI package, offering a detailed picture of Germany’s HAI burden. It revealed that, although Germany had slightly lower infection rates inside hospitals, its overall population burden was higher than the European average, mainly because the country has more hospital beds and admissions per person than most other nations. These findings highlight that even advanced healthcare systems face significant risks from preventable infections, and that reducing unnecessary hospital stays and strengthening infection-control practices remain crucial for protecting patients.</p>
+</section>
+<section id="findings-of-the-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="findings-of-the-analysis">Findings of the analysis</h2>
+<p>Using hospital data from Germany’s 2011 national survey, researchers estimated about 478 000 cases of healthcare-associated infections that year. These infections caused around 16 000 deaths and led to the loss of nearly 249 000 years of healthy life (see <a href="#tbl-hai-1" class="quarto-xref">Table&nbsp;1</a>)</p>
+<div id="tbl-hai-1" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-alt="Image of Table 1 showing annual burden of five HAIs from the German point prevalence survey, 2011.">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-hai-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Annual burden of five types of healthcare-associated infections, German point prevalence survey sample, Germany, 2011.
+</figcaption>
+<div aria-describedby="tbl-hai-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="Table_1.png" class="img-fluid figure-img" style="width:100.0%" alt="Image of Table 1 showing annual burden of five HAIs from the German point prevalence survey, 2011.">
+</div>
+</figure>
+</div>
+<p>Not all infections were equally serious. While urinary-tract infections were the most common, pneumonia and bloodstream infections caused far more deaths and made up a much larger share of the total health burden. This pattern shows that even relatively rare infections can have devastating consequences.</p>
+<p>When the researchers applied the same method to a larger convenience sample of hospitals, the estimates rose slightly to about 514 000 cases, 19 700 deaths, and 290 000 DALYs. In both data sets, roughly 4% of hospital patients were affected by at least one of the five main infection types.</p>
+<p>When the researchers compared Germany with the rest of Europe through <a href="#fig-hai-2" class="quarto-xref">Figure&nbsp;2</a>, they found that infections in German hospitals caused slightly more illness and death overall. For every 100 infection-related deaths in the average European country, Germany had about 130. This does not mean German hospitals are dirtier but it is mainly because the country has many more hospital beds and admissions, which means more opportunities for infection to spread.</p>
+<div id="fig-hai-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-hai-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="Figure_2.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-hai-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Annual burden of five types of healthcare-associated infections with attributable deaths per 100,000 population, 2011–2012.
+</figcaption>
+</figure>
+</div>
+<p>In short, Germany’s strong hospital system also means more people are at risk simply because more people are treated in hospital.</p>
+</section>
+<section id="how-the-study-was-done" class="level2">
+<h2 class="anchored" data-anchor-id="how-the-study-was-done">How the study was done</h2>
+<p>To measure how much harm healthcare-associated infections (HAIs) cause, the researchers used hospital data collected by the European Center for Disease Prevention and Control (ECDC) during a point-prevalence survey in 2011–2012. This survey recorded how many hospital patients across Europe had an infection at a single point in time, along with information about their age, health condition, and hospital type.</p>
+<p>For Germany, three data sources were analysed:</p>
+<ul>
+<li><p>A representative national sample: 46 hospitals with 9,626 patients.</p></li>
+<li><p>A larger “convenience” sample: 132 hospitals with 41,539 patients (not fully representative, but broader).</p></li>
+<li><p>The EU/EEA sample: 1,149 hospitals and 273,753 patients across 29 European countries.</p></li>
+</ul>
+<p>Instead of just counting cases and deaths, the researchers measured the overall health impact using Disability-Adjusted Life Years (DALYs) by combining both:</p>
+<ul>
+<li><p>Years of Life Lost (YLL) – deaths that occur earlier than expected</p></li>
+<li><p>Years Lived with Disability (YLD) – time spent ill or recovering with reduced health.</p></li>
+</ul>
+<p>Together, these reflect the total number of healthy years removed from society by a disease. This allows different infections to be compared on a single scale, showing which ones cause the most harm overall.</p>
+<p>Each infection’s progression was modelled using “outcome trees”, which map out what can happen to a patient from infection to recovery, disability, or death. The probabilities and severity of each outcome were based on medical literature and earlier work from the Burden of Communicable Diseases in Europe (BCoDE) project.</p>
+<p>All calculations were performed using a special computer tool, the BHAI R package (Burden of Healthcare-Associated Infections) which automatically converts hospital data into national-level estimates. This process is illustrated in <a href="#fig-hai-1" class="quarto-xref">Figure&nbsp;1</a> of the study, showing how infection data move from hospitals to population-wide health burden results. To make sure the method was reliable, the researchers also ran validation tests using simulated data of different sizes and compared the results with earlier European estimates.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion:</h2>
+<p>The application of the BHAI R package to German and EU/EEA data provided the first country-specific estimates of the burden of five major HAIs in Germany. The analysis showed that in 2011, HAIs accounted for approximately 478,000 cases, 16,000 attributable deaths, and nearly 249,000 DALYs, corresponding to 308 DALYs per 100,000 population. Despite having a lower hospital prevalence of HAIs compared with other European countries, Germany’s overall burden was higher than the EU/EEA average. A key factor likely contributing to this result is Germany’s extensive hospital capacity and large number of admissions, which may increase exposure and risk.</p>
+<p>The study’s findings have important implications for healthcare planning. Reducing avoid- able hospital stays, alongside stronger adherence to infection prevention and control practices, should be prioritized to mitigate the HAI burden. In addition, DALY-based burden measure- ment makes it more easily for comparing HAIs with other communicable diseases, supporting evidence-based prioritization in health policy for HAIs.</p>
+<p>Several limitations should be noted. The outcome trees were based on limited-quality evidence and should be updated as stronger data become available. The assumption of independence between infections may slightly overestimate the burden, which could be addressed by future models incorporating multiple infections per patient. The use of European McCabe score distri- butions may not perfectly reflect German patients, suggesting the need for country-specific life expectancy data.</p>
+<p>Finally, representatives of the PPS sample remains uncertain, highlighting the importance of expanding data collection to cover hospital case mix and specialization more comprehensively. Taken together, these results highlight that HAIs impose a substantial and preventable health burden in Germany, exceeding the impact of several other major communicable diseases. While methodological refinements and better data will strengthen future estimates, the current find- ings already provide a strong case for targeted prevention strategies and policy action to reduce the national burden of HAIs.</p>
+</section>
+<section id="reference" class="level2">
+<h2 class="anchored" data-anchor-id="reference">Reference</h2>
+<p>Zacher, B., Haller, S., Willrich, N., Walter, J., Abu Sin, M., Cassini, A., Plachouras, D., Suetens, C., Behnke, M., Gastmeier, P., Wieler, L. H., &amp; Eckmanns, T. (2019). Application of a new methodology and R package reveals a high burden of healthcare-associated infections (HAI) in Germany compared to the average in the European Union/European Economic Area, 2011 to 2012. Eurosurveillance, 24(46), 1900135. Can be accessible through this <a href="https://doi.org/10.2807/1560-7917.ES.2019.24.46.1900135">link</a>.</p>
 
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -1,12 +1,13 @@
 ---
 title: "Posts"
+title-block-banner: "#a3abb6ff"   
 listing:
-  contents: .               # look in THIS folder
+  contents: .               
   sort: "date desc"
-  type: default             # or "grid" for cards
+  type: default            
   page-size: 6
   categories: true
-  filter-ui: true           # adds filter controls
+  filter-ui: true           
   fields: [image, title, description, date, categories, reading-time]
 ---
 
