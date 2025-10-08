@@ -4,7 +4,8 @@ project:
   render:
     - about.qmd
     - index.qmd
-    - posts/welcome/index.qmd
+    - posts/index.qmd
+    - posts/assignment_3/index.qmd
 
 website:
   title: "About me"
@@ -15,7 +16,7 @@ website:
       - text: My CV
         file: about.qmd
       - text: Posts
-        file: posts/welcome/index.qmd
+        file: posts/index.qmd
 
 format:
   html:

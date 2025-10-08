@@ -1,0 +1,8 @@
+---
+title: "Assignment 3"
+description: "What I built and learned in A3."
+date: 2025-10-08
+categories: [r, report]
+image: thumbnail.jpg  
+# draft: false
+---

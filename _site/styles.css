@@ -2,3 +2,8 @@
 .navbar-dark, .quarto-title-banner {
   background-color: #006DAE;
 }
+.quarto-about-jolla .quarto-title,
+.quarto-about-jolla .about-description,
+.quarto-about-jolla .content { text-align: left; }
+
+

@@ -1,0 +1,12 @@
+---
+title: "Posts"
+listing:
+  contents: .               # look in THIS folder
+  sort: "date desc"
+  type: default             # or "grid" for cards
+  page-size: 6
+  categories: true
+  filter-ui: true           # adds filter controls
+  fields: [image, title, description, date, categories, reading-time]
+---
+
