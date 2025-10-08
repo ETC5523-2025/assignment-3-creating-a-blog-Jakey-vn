@@ -87,7 +87,7 @@ Data analyst with strengths in R/Python, reproducible analysis (Quarto), and eco
 
 ---
 
-## Contact & CV
+## Contact 
 
 - **Email:** <jakeyhuy@gmail.com>  
 - **Phone number:** +61 413 385 460

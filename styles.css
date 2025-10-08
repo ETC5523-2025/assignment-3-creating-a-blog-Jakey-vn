@@ -6,19 +6,12 @@
 .quarto-about-jolla .about-description,
 .quarto-about-jolla .content { text-align: left; }
 
-/* 1) Put the image on the whole page */
-body { 
+body:has(.quarto-about-marquee) {
   background: url("background.jpg") center/cover no-repeat fixed;
 }
 
-/* 2) Let the body image show through the header */
-#quarto-header, 
-#quarto-header .navbar {
-  background: transparent !important;
-  box-shadow: none !important;
-}
-
-/* 3) Don’t double-paint inside the about block */
-.quarto-about-marquee { 
-  background: transparent;
+.quarto-about-marquee .about-link i.bi {
+  font-size: 2.0rem;   
+  line-height: 1;
+  margin-right: .4rem;
 }

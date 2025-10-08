@@ -86,7 +86,7 @@
   {
     "objectID": "posts/index.html",
     "href": "posts/index.html",
-    "title": "Posts",
+    "title": "About me",
     "section": "",
     "text": "The Hidden Burden of Hospital Infections in Germany\n\n\n\nBlog\n\n\n\nThis article is a blog adapted from the original article Application of a new methodology and R package reveals a high burden of healthcare-associated infections (HAI) in Germany compared to the average in the European Union/European Economic Area, 2011 to 2012\n\n\n\n\n\nOct 8, 2025\n\n9 min\n\n\n\n\nNo matching items"
   },
@@ -159,5 +159,12 @@
     "title": "The Hidden Burden of Hospital Infections in Germany",
     "section": "Reference",
     "text": "Reference\nZacher, B., Haller, S., Willrich, N., Walter, J., Abu Sin, M., Cassini, A., Plachouras, D., Suetens, C., Behnke, M., Gastmeier, P., Wieler, L. H., & Eckmanns, T. (2019). Application of a new methodology and R package reveals a high burden of healthcare-associated infections (HAI) in Germany compared to the average in the European Union/European Economic Area, 2011 to 2012. Eurosurveillance, 24(46), 1900135. Can be accessible through this link."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "Andy Tran Resume",
+    "section": "Contact",
+    "text": "Contact\n\nEmail: jakeyhuy@gmail.com\n\nPhone number: +61 413 385 460\nLocation: Docklands, Melbourne, Australia"
   }
 ]
