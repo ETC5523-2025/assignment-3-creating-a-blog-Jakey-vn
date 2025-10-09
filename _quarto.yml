@@ -7,6 +7,7 @@ project:
     - posts/index.qmd
     - posts/assignment_3/index.qmd
 
+
 website:
   title: "About me"
   favicon: my_picture.png
